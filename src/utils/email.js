@@ -1,8 +1,8 @@
 import nodemailer from "nodemailer";
 import config from "../../config/config.js";
 
-console.log("smtp user name: ", config.app.smtpUsrName);
-console.log("smtp password: ", config.app.smtpPass);
+// console.log("smtp user name: ", config.app.smtpUserName);
+// console.log("smtp password: ", config.app.smtpPass);
 
 const transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
